@@ -1,0 +1,32 @@
+phase,category,item,qty,unit_usd,allowance_usd,actual_usd,notes
+1,Controls,"ESP32 development board",1,7,7,,"Wi-Fi live view and logging to flash"
+1,Controls,"ADS1115 16-bit ADC",2,4,8,,"8 channels for the thermistors"
+1,Controls,"10k NTC waterproof thermistor probes",8,1.5,12,,"Vest inlet, front return, back return, buffer, torso, ambient, 2 spares"
+1,Controls,"0.1% 10k reference resistors (pack)",1,3,3,,
+1,Controls,"Hall-effect flow sensor 0.3-6 L/min",1,6,6,,"Calibrate by timed collection on a scale"
+1,Controls,"INA226 power monitor with 5 mOhm shunt",1,5,5,,"Heater power; the stock 0.1 Ohm shunt limits current to 0.8 A"
+1,Controls,"OLED display + rotary encoder",1,7,7,,"Local setpoint selection"
+1,Controls,"Logic-level MOSFET modules",3,2,6,,"Vest pump, injection pump, heater"
+1,Controls,"USB-C PD trigger board + buck converter to 5 V",1,6,6,,"Runs the wearable demo from a power bank"
+1,Controls,"Perfboard, connectors, wire",1,8,8,,
+1,Fluid,"Small 12 V brushless DC pump",2,12,24,,"Vest loop and injection; same model so they are interchangeable"
+1,Fluid,"PU tubing 4 x 6 mm, 25 m",1,15,15,,"Garment circuits plus test panels"
+1,Fluid,"Silicone hose 6 mm ID 2 m + foam insulation",1,10,10,,
+1,Fluid,"Dry-break quick disconnect pair",1,10,10,,"Vest connection; measure its pressure drop"
+1,Fluid,"Barbs, reducers, hose clamps (assortment)",1,6,6,,"The printed manifold replaces most tees; includes a short 2 mm ID restriction for the injection line"
+1,Fluid,"Vacuum food jar ~1.2 L + 2 bulkhead fittings",1,18,18,,"Ice buffer"
+1,Garment,"Compression shirt (base layer)",1,15,15,,"Use one you own if it fits snugly"
+1,Garment,"Stretch fabric strips, thread",1,10,10,,"Sew at the campus makerspace"
+1,Fabrication,"3D-printing material at the makerspace (PETG, TPU, resin for the manifold)",1,20,20,,"Manifold, housing, fixtures, sewing template, clips; two revisions"
+1,Bench,"12 V 20 A switching power supply",1,25,25,,"Borrow a lab bench supply if available"
+1,Bench,"Heater block: CPU water block + 2 x 3.3 Ohm 50 W aluminium-clad resistors + insulation",1,17,17,,"Controlled water-side load, ~87 W max at 12 V, PWM to 25/50/75 W"
+1,Bench,"Heated torso: 19 L bucket + lid, 12 V ~150 W immersion heater, stirring pump, insulation",1,30,30,,"Held at 34 C; heat removed = heater power + thermal-mass term"
+1,Contingency,"Phase 1 contingency (~11%)",1,30,30,,
+2,Chiller,"RIGID DV1920E-P(S) 24 V sealed mini water chiller (or the lighter personal-wear unit)",1,470,470,,"Optional later build; request quotes in the design study"
+2,Chiller,"Shipping and import duties/taxes",1,80,80,,
+2,Battery,"7S Li-ion pack 21-29.4 V ~90-130 Wh + 29.4 V charger + fuse/switch",1,120,120,,
+2,Fluid,"Chiller-loop pump",1,15,15,,
+2,Controls,"IMU (tilt interlock) + 5 V level shifter (compressor speed input)",1,8,8,,
+2,Frame,"Frame, protective shell, shock mounts, makerspace prints",1,60,60,,
+2,Bench,"24 V 15 A power supply for chiller bench tests",1,30,30,,
+2,Contingency,"Phase 2 contingency",1,70,70,,
