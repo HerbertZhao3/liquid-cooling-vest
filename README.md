@@ -5,7 +5,7 @@ A CAD-led mechanical design project: a wearable liquid-cooling vest with closed-
 - **Phase 1 (built):** ice charges the buffer. The manifold, wearable housing, garment tube layout, and test fixtures are designed in CAD, printed, and tested on a heated-torso rig. The measurements validate the simulations.
 - **Phase 2 (CAD design study):** a battery-powered compressor-chiller backpack, with a sheet-metal frame, shock-mounted chiller, shell and ducting, FEA, CFD, and drawings.
 
-**Status:** planning complete. [Plan v3](docs/project-plan.md) week 1 is next: set up the CAD conventions, order parts, and model the purchased parts.
+**Status:** planning complete. Work from the [checklist](CHECKLIST.md); week 1 is setup, buying parts, and modelling the purchased parts.
 
 ## Requirements and results (Phase 1)
 
@@ -27,7 +27,8 @@ A CAD-led mechanical design project: a wearable liquid-cooling vest with closed-
 
 | Path | Contents |
 |---|---|
-| [`docs/project-plan.md`](docs/project-plan.md) | The plan (v3), including the 12-week timeline |
+| [`CHECKLIST.md`](CHECKLIST.md) | **To-do list** of everything to CAD, design, build, test, and document |
+| [`docs/project-plan.md`](docs/project-plan.md) | Background and reasoning behind the checklist (plan v3) |
 | [`docs/plan-review.md`](docs/plan-review.md) | What changed from v1 and why |
 | [`docs/decision-log.md`](docs/decision-log.md) | Decisions, alternatives, and evidence |
 | [`docs/vendor-rfq.md`](docs/vendor-rfq.md) | Chiller data request for Phase 2 |
